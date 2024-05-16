@@ -1,0 +1,382 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.792) 0, rgba(0, 0, 0, 0.715) 60%, rgba(0, 0, 0, 0.753) 100%), url(./images/header-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+    opacity: 2.2;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 0rem;
+    align-items: center;
+}
+#left img{
+    width: 145px;
+    height: 42px;
+    margin-right: 400px;
+}
+#right{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+#right select{
+    border-radius: 9px;
+    width: 130px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    border: 3px solid white;
+    font-weight: 500;
+    font-size: 15px;
+}
+option{
+    background-color: white;
+    color: black;
+    height: 55px;
+    width: 130px;
+    font-weight: 500;
+    padding-left: 50px;
+}
+#lang{
+    color: white;
+    position: absolute;
+    left: 74%;
+}
+#btn{
+    background-color: red;
+    color: white;
+    height: 32px;
+    width: 80px;
+    border-radius: 5px;
+    border: red;
+    font-size: 15px;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: darkred;
+}
+/* -------------section1--------------- */
+#div1>h1{
+    margin-left: 19%;
+    color: white;
+    margin-top: 12%;
+    font-weight: 800;
+    font-size: 48px;
+}
+#div1>h3{
+    color: white;
+    margin-left: 35%;
+    font-size: 1.9rem;
+    font-weight: 300;
+}
+#div1>p{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: -1%;
+    font-size: 20px;
+}
+#div2{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 10px;
+    height: 200px;
+    gap: 10px;
+}
+#div2>input{
+    width: 28%;
+    height: 40px;
+    background: transparent;
+    border: 1.5px solid white;
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+#div2>button{
+    background-color: red;
+    color: white;
+    height: 45px;
+    width: 15%;
+    border-radius: 5px;
+    border: red;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-size: 140%;
+}
+#div2>button:hover{
+    cursor: pointer;
+    background-color: darkred;
+}
+hr{
+    color: gray;
+    background-color: rgb(67, 66, 66);
+    border: none;
+    height: 8px;
+    margin-top: 135px;
+}
+/* ---------------section2--------------------- */
+#section2{
+    color: white;
+    margin-top: 8.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 180px;
+}
+#section2>#div1{
+    margin-left: 70px;
+}
+#section2>#div1>h2{
+    font-size: 55px;
+}
+#section2>#div1>#p1{
+    margin-top: -20px;
+}
+#section2>#div1>#p2{
+    margin-top: -20px;
+    margin-left: -155px;
+}
+#section2>#div2>img{
+    width: 160%;
+    position: relative;
+    height: 60vh;
+    top: -120px;
+}
+#section2>#div2>video{
+    position: absolute;
+    left: 61%;
+    top: 138%;
+    width: 28%;
+    z-index: -50;
+}
+/* -----------section3------------- */
+#section3{
+    display: flex;
+}
+#section3>#div1>img{
+    height: 30rem;
+    margin-top: 40px;
+    margin-left: 100px;
+    z-index: 10;
+}
+#section3>#div2{
+    width: 23%;
+    height: 13%;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    background: black;
+    top: 1795px;
+    left: 245px;
+}
+#section3>#div2>img{
+    width: 65px;
+    height: 85px;
+    position: absolute;
+    left: 20px;
+}
+#section3>#div2>#div3>h3{
+    font-family: "Teachers", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+#down{
+    color: blue;
+    margin-top: -20px;
+}
+#download{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    left: 270px;
+}
+#section3>#div4{
+    color: white;
+    position: absolute;
+    top: 96rem;
+    left: 45rem;
+}
+#div4>h2{
+    font-size: 55px;
+}
+#div4>p{
+    font-size: 20px;
+}
+#div4>#head2{
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
+#div4>#p2{
+    margin-top: -20px;
+}
+/* ------------section4------------ */
+#section4{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8.5rem;
+    margin-bottom: 180px;
+}
+#section4>#div1>h2{
+    font-size: 55px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#section4>#div1>p{
+    font-size: 20px;
+}
+#section4>#div1>#p2{
+    margin-left: -185px;
+    margin-top: -20px;
+}
+#section4>#div2>img{
+    width: 160%;
+    position: relative;
+    height: 60vh;
+    top: -120px;
+}
+#section4>#div2>video{
+    position: absolute;
+    left: 63%;
+    top: 305%;
+    width: 24%;
+    z-index: -50;
+}
+/* --------------section5------------- */
+#section5{
+    color: white;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+#section5>img{
+    width: 40%;
+    height: 30rem;
+    margin-left: 110px;
+}
+#section5 div>h2{
+    font-size: 55px;
+}
+#section5 div>p{
+    font-size: 20px;
+}
+#section5 div>#head1{
+    margin-top: 90px;
+}
+#section5 div>#head2{
+    margin-top: -60px;
+}
+#section5 div>#p1{
+    margin-top: -40px;
+}
+#section5 div>#p2{
+    margin-top: -25px;
+}
+#section5 div>#p3{
+    margin-top: -25px;
+}
+/* -----------section6---------- */
+#section6{
+    width: 80%;
+    margin: auto;
+    color: white;
+    margin-top: 3rem;
+}
+#section6>h2{
+    text-align: center;
+    font-size: 3rem;
+}
+#section6>.faq-cont>.que{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 0rem 1rem;
+}
+#section6>.faq-cont>.que>h3{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+#section6>.faq-cont:hover .que{
+    background-color: #666666;
+}
+.ans{
+    background-color: #2d2d2d;
+    padding: 1rem 2rem 1rem 1rem;
+    margin-top: 2px;
+    position: relative;
+    display: none;
+    font-size: 1.2rem;
+}
+.faq-cont:active .ans{
+    display: block;
+}
+.ans>p{
+    margin: 0;
+}
+.faq-cont{
+    margin-top: 13px;
+}
+#paragraph{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+#email{
+    text-align: center;
+}
+#hr1{
+    margin-top: -90px;
+}
+/* ---------footer---------- */
+footer h3{
+    color: white;
+    font-weight: 200;
+    font-size: 17px;
+    margin-top: 70px;
+    margin-left: 170px;
+}
+footer #foot{
+    display: flex;
+    gap: 120px;
+    margin-left: 130px;
+    margin-top: -10px;
+}
+#foot ul{
+    list-style-type: none;
+}
+#foot>ul>li>a{
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+}
+#foot>ul>li{
+    margin-top: 7px;
+}
+footer #right{
+    margin-left: -65.5rem;
+    margin-top: 20px;
+}
+footer #right>#lang{
+    margin-left: -59rem;
+}
+footer p{
+    color: rgb(150, 148, 148);
+    margin-left: 165px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
